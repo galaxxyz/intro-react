@@ -71,7 +71,7 @@ class App extends React.Component {
         <List
           placeholder="Add Student..." 
           currList={this.state.students}
-          addFunction={this.students}
+          addFunction={this.addStudent}
           title="Student Roster"
         />
       );
